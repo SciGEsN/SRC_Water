@@ -1,0 +1,28 @@
+<html> 
+  <head> 
+    <script src="jquery.js"></script> 
+    <script> 
+    $(function(){
+      $("#includedContent").load("index.html"); 
+    });
+    </script> 
+  </head> 
+
+  <body> 
+     <div id="includedContent">
+<div class="row">
+  <div class="column"><embed type="text/html" src="data1.html" width="100%"height="600"></div>
+  <div class="column"><embed type="text/html" src="data2.html" width="100%"height="600"></div>
+  <div class="column"><embed type="text/html" src="data3.html" width="100%"height="600"></div>
+  <div class="column"><embed type="text/html" src="data4.html" width="100%"height="600"></div>
+  <div class="column"><embed type="text/html" src="data5.html" width="100%"height="600"></div>
+  <a class="btn" href="data/P.csv" download>Pressure</a>
+  <a class="btn" href="data/stat.csv" download>Status</a>
+  <a class="btn" href="data/T1.csv" download>T1</a>
+  <a class="btn" href="data/T2.csv" download>T2</a>
+  <a class="btn" href="data/T5.csv" download>T5</a>
+  <a class="btn" href="data/T6.csv" download>T6</a>
+</div>
+</div>
+  </body> 
+</html>
